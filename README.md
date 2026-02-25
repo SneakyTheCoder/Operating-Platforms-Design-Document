@@ -1,7 +1,7 @@
 # Operating-Platforms-Design-Document
 
 
-**Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?**
+**Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?**<br>
 The Gaming Room client is an already established game developement company with an already successful game called "Draw It or Lose It". The Gaming Room would like to expand their application to multiple different platforms to exand their user base while not changing any of the core game logic, allowing for a seamless experience across the different platforms. The applications should ensure that only one game instance exists in memory at a given time. A unique ID should be assigned to each game, team, and player to ensure uniqueness and prevent data conflicts. A singlton pattern for the game service shoudl allow the system to maintain a secure line to the games data.
 
 **What did you do particularly well in developing this documentation?**
