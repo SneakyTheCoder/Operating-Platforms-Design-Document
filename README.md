@@ -2,19 +2,25 @@
 
 
 **Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?**<br>
+
 The Gaming Room client is an already established game developement company with an already successful game called "Draw It or Lose It". The Gaming Room would like to expand their application to multiple different platforms to exand their user base while not changing any of the core game logic, allowing for a seamless experience across the different platforms. The applications should ensure that only one game instance exists in memory at a given time. A unique ID should be assigned to each game, team, and player to ensure uniqueness and prevent data conflicts. A singlton pattern for the game service shoudl allow the system to maintain a secure line to the games data.
 
 **What did you do particularly well in developing this documentation?**<br>
+
 I feel as though I did a particularly good job in communicating the different aspects of how the system should be built. I also feel like I did a great job recommending the correct operating system to ensure that application will successfuly solve the issues that The Gaming Room is facing. Describing the UML diagram was probably my most difficult section but I believe that I did a good job at exploring how the different pieces of the program communicate and share the different data beteween themselves. Breaking down the development requirements for each operating system was no easy task, but heavy reasearch made the choice very clear by the end of the explanation.
 
 **What about the process of working through a design document did you find helpful when developing the code?**<br>
+
 The process of working through a design document was extremely helpful in staying organized throughout the whole process. Having a better understanding of the problem that The Gaming Room was trying to solve and breaking that problem down into the different sections in the document made the process much smoother towards the end. I also remained within the scope a lot easier and did not spend a whole lot of time outside of ensuring the requirements were being met. Overall this was an excellent tool to use when intially designing and planning the application in the beginning stages, leading to much more effiecient work.
 
 **If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?**<br>
+
 One thing that I would improve in my document would be the design constraints section. I feel I did a good job touching on certain issues but with more reasearch, I am sure I would be able to uncover more constraints which could help the the development process later on. More experience with different operating systems may make it easier to identify platform constraints. To ensure that I am catching more restraints in the future I will be practicing much a wider vareity of operating systems for my own knowledge self gain.
 
 **How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?**<br>
+
 Initially I started out by determining who the users were, what the problem was, and how do they interact with the system. From there those needs were directly influenced architectural decisions, feature prioties, and the overal technical design of the application. Sepearting the different needs and requirements into their own individual task help to keep track of the different features that still need to be implmented. Considering user needs is important because the software will fail if it not solving the right problem. This can also lead to reduced rework and costs associated for having to fix the design or acutal application. Considering the users needs can also improve stability and lead to a higher quality system.
 
 **How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?**<br>
+
 When designing the application for The Gaming Room, I followed a strict requirements driven approach rather than jumping straight to assumptions and building the application. This involved finding answers to questions like what must the system do? and how must the system perform? Finding answers to these questions then made it much easier to create the object oriented design for the project and also for implementing the singleton pattern for managing the central game service. If I were designing a similar application again, I would focus on strengthening the process with more UML diagrams to represent the communcation between the different modules to paint a clearer picture for the client. Since this application is in the gaming category it might also be best to incorporate a prototype of the system to help the client better understand the progress as well as getting their acceptance for the current state.
